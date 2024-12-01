@@ -1,0 +1,73 @@
+.hero {
+    display: flex;
+    padding: 50px;
+    background: linear-gradient(to right, white 60%, #F0F8FF 40%);
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.subtitle {
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hero-buttons .make-appointment a{
+    text-decoration: none;
+}
+
+.make-appointment {
+    background: #4A90E2;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+   
+}
+
+.make-appointment a{
+    text-decoration: none;
+}
+.play-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #4A90E2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+.icon{
+    font-size: 70px;
+}
